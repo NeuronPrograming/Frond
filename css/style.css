@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu {
+    background-color: #141414 !important;
+    margin-bottom: 0;
+    text-decoration-color: #1c8afc !important;
+}
+
+.main-menu .nabar-nav .nav-item a.nav-link {
+    text-decoration-color: #1c8afc;
+}
+
+.second-menu {
+    background-color: #0A0A0A !important;
+    margin-bottom: 0;
+}
+
+.logo-01-homepage {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 8.5rem;
+    left: 8.5rem;
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1.25rem !important;
+    padding-left: 1.25rem !important;
+    color: #dedede;
+}
+
+.navbar-expand-sm ul.navbar-nav.small.social-icons-list {
+    padding-left: 1.5rem !important;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link.social-icons-link {
+    padding-right: 0.45rem !important;
+    padding-left: 0.45rem !important;
+}
+
+.navbar-expand-sm ul.navbar-nav.small.middle-icons-list {
+    margin-left: 5.5rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link.middle-icons-link {
+    margin-left: 0.5rem !important;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link.middle-icons-link i {
+    padding-right: 1.5rem !important;
+    padding-left: 2rem !important;
+}
+
+a.nav-link {
+    color: #dedede !important;
+}
+
+a.nav-link:hover, a.nav-link:focus {
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1920px;
+    max-height: 980px;
+}
+
+.header-image {
+    height: 80vh;
+    background-image: url('../img/header01.png');
+    background-size: 50%;
+    background-position: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    /*clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);*/
+}
+
+.carousel-item img {
+    float: right !important;
+}
+
+.carousel-item .carousel-caption {
+    float: left !important;
+    width: 40%;
+    position: relative;
+    top: 12rem;
+    left: 0;
+    color:blue;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.carousel-caption h5 {
+    margin-bottom: 1.5rem;
+    color: #001a7a;
+}
+
+
+.carousel-caption p {
+    margin-bottom: 0;
+    color: #3f3f3f;
+}
+
+.carousel-indicators {
+    bottom: 25%;
+    right: 50%;
+    list-style: circle;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-button {
+    position: absolute;
+    bottom: 19.5%;
+    left: 20.75%;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    top: 28%;
+    left: 75%;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    top: 28%;
+    right: 75%;
+}
+
+.article-img-1, .article-img-2 {
+    width: 50%;
+    height: 100vh;
+    background-size: 100vh 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.article-img-1 {
+         background-image: url(../img/article_01.jpg);
+  }
+
+.article-img-2 {
+    background-image: url(../img/article_02.jpg);
+  }
+
+.article-text {
+    width: 50%;
+    height: 100vh;
+    padding: 10%;
+}
+
+.article-text h5 {
+    margin-bottom: 1.5rem;
+    color: #001a7a;
+}
+
+.article-text p {
+    color: #3f3f3f;
+}
+
+.arrow-down, .arrow-up {
+    height: 50px;
+}
+
+.footer-content {
+    width: 33%;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 2.19rem;
+}
+
+img#footer-logo {
+    max-width: 22%;
+    margin-bottom: 2.5rem;
+}
+
+.footer-link {
+    padding-right: 0.85rem !important;
+    padding-left: 0.85rem !important;
+}
+
+.footer-link-1 {
+    color: #3f3f3f;
+}
+
+.footer-link-1:hover, .footer-link-1:focus {
+    color: #3f3f3f;
+    text-decoration-color: #1c8afc;
+}
+
+.footer-link {
+    color: #545454;
+}
+
+.footer-link:hover, .footer-link:focus {
+    color: #545454;
+    text-decoration-color: #1c8afc;
+}
+
+div#copyright {
+    height: 1.75rem;
+    margin-top: 0.94rem;
+    margin-bottom: 0.5rem;
+}
+
+div#copyright>p {
+    color: #000000;
+    padding: 0.2rem;
+}
+
+@media (min-width: 768px){
+.navbar {
+    margin: : 0;
+    border-radius: 0;
+}
+}
+
+@media all and (max-width: 1200px) {
+    .footer-content {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    img#footer-logo {
+        float: none;
+    }
+}
+
+.powiekszenie{
+    overflow: hidden;
+    padding: 0;
+    
+border:0px solid #000;
+}
+.powiekszenie img {
+    transition-duration: 3s;
+    margin: 0 auto;
+    display: block;
+}
+.powiekszenie img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
